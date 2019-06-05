@@ -1,16 +1,17 @@
-# trip_cost_app
 
-A new Flutter project.
+A Flutter Application that takes in the following inputs:
+1. Distance to be covered
+2. Distance per unit
+3. Price of fuel
+4. Dropdown menu of the currency (Pounds, Euro, Dollars)
 
-## Getting Started
+The output can been seen when you click the SUBMIT button.
+The formula in the calculate() method: distance / consumption * fuelCost;
+The reset() method cleares all the fields of the form.
 
-This project is a starting point for a Flutter application.
+The following widgets have been used :
+1. State class : setState()
+2. DropdownButton : map() and onChanged()
+3. TextField : controller, style, keyboardType and decoration
+4. Padding : border, borderRadius, textScaleFactor
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.io/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.io/docs/cookbook)
-
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.io/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
